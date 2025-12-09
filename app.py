@@ -54,7 +54,13 @@ def main():
     # Ganti src di bawah dengan link embed lagu spotify pilihanmu
     st.write("Play lagu nyaa...")
     st.components.v1.iframe(
-        src="https://open.spotify.com/embed/track/7BgFlmOxrL7M1jVGoxqy37", 
+        src="st.write("Play lagu nyaa...")
+    
+    st.write("Play lagu nyaa...")
+    
+    # LINK ASLI SPOTIFY (Masing Masing - Ernie Zakri & Ade Govinda)
+    st.components.v1.iframe(
+        src="https://open.spotify.com/embed/track/2516432901", 
         width=700, 
         height=80, 
         scrolling=False
@@ -88,4 +94,5 @@ def main():
         )
 
 if __name__ == "__main__":
+
     main()
