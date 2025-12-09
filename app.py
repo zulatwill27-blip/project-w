@@ -64,7 +64,7 @@ def main():
     )
     
     # 4. TOMBOL RAHASIA
-    if st.button("for u"):
+    if st.button("pencet ini"):
         with st.spinner("wait yaa......"):
             time.sleep(2.5)
             
@@ -93,5 +93,6 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
